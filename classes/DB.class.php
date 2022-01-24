@@ -2,7 +2,7 @@
 
 class DB{
   
-    protected $db_name = 'php_web_app';
+    protected $db_name = 'php_web_app2';
 	protected $db_user = 'rdsadmin@mysqldbserver0101';
 	protected $db_pass = 'Ha@74740170';
 	protected $db_host = 'mysqldbserver0101.mysql.database.azure.com';
