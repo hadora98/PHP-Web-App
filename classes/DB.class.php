@@ -3,9 +3,9 @@
 class DB{
   
     protected $db_name = 'php_web_app';
-	protected $db_user = 'web_app_user';
-	protected $db_pass = 'webapppass!';
-	protected $db_host = 'localhost';
+	protected $db_user = 'rdsadmin@mysqldbserver0101';
+	protected $db_pass = 'Ha@74740170';
+	protected $db_host = 'mysqldbserver0101.mysql.database.azure.com';
  
     private $dbh;
     private $error;
