@@ -14,7 +14,7 @@ class DB{
  
     public function __construct(){
         // Set DSN
-        $dsn = 'mysql:host=' . $this->host . ';dbname=' . $this->dbname;
+        $dsn = 'mysql:host=' . $this->host .';port=3306'. ';dbname=' . $this->dbname;
         // Set options
         $options = array(
             PDO::ATTR_PERSISTENT    => true,
@@ -22,6 +22,7 @@ class DB{
         );
         // Create a new PDO instanace
         try{
+
             $this->dbh = new PDO($dsn, $this->user, $this->pass, $options);
         }
         // Catch any errors
